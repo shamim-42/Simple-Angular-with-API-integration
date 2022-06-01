@@ -1,5 +1,5 @@
 {
-  "name": "angular-teton",
+  "name": "Simple Angular project with API integration",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
