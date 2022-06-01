@@ -1,0 +1,27 @@
+<div class="container">
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">City</th>
+            <th scope="col">DOB</th>
+            <th scope="col">Email</th>
+            <th scope="col">Name</th>
+            <th scope="col">Pin code</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor = 'let us of readData'>
+            <th scope="row">{{us.id}}</th>
+            <td>{{us.city}}</td>
+            <td>{{us.dob}}</td>
+            <td>{{us.email}}</td>
+            <td>{{us.name}}</td>
+            <td>{{us.pincode}}</td>
+
+          </tr>
+        </tbody>
+      </table>
+
+</div>
